@@ -1,3 +1,6 @@
+import akka.actor.ActorSystem
+
 object WatsonIntegration extends App {
-  print("Hello Watson!")
+  val actorSystem = ActorSystem("HelloAkka")
+  println(actorSystem)
 }
