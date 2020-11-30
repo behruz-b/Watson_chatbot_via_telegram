@@ -20,5 +20,6 @@ libraryDependencies ++= akkaLibs ++ ibmWatson ++ Seq(
   "ch.qos.logback" % "logback-classic" % "1.3.0-alpha5",
   "ch.qos.logback" % "logback-core" % "1.3.0-alpha5",
   "org.slf4j" % "log4j-over-slf4j" % "2.0.0-alpha1",
-  "org.apache.logging.log4j" % "log4j-api" % "2.14.0"
+  "org.apache.logging.log4j" % "log4j-api" % "2.14.0",
+  "com.typesafe" % "config" % "1.4.1"
 )
